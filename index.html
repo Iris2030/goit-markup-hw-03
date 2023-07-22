@@ -4,16 +4,18 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Studio</title>
-        <link rel="stylesheet" href="css/styles.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
             href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
             rel="stylesheet"
         />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+        <link rel="stylesheet" href="css/styles.css" />
     </head>
     <body>
-        <header class="header container">
+        <header class="header">
+            <div class="container flex-box">
             <nav class="site-nav">
                 <a class="site-nav__logo link" href="./index.html"
                     >WEB<span class="accent">Studio</span></a
@@ -38,6 +40,7 @@
                     </li>
                 </ul>
             </address>
+        </div>
         </header>
         <main class="main-container">
             <section class="hero">
@@ -51,7 +54,7 @@
             </section>
             <section class="values">
                 <div class="container">
-                    <h2 class="hidden">Our values</h2>
+                    <h2 class="visually-hidden">Our values</h2>
                     <ul class="values__list list">
                         <li class="values__item">
                             <h3 class="values__subtitle">Strategy</h3>
@@ -84,7 +87,7 @@
                     </ul>
                 </div>
             </section>
-            <section class="work container">
+            <section class="work">
                 <div class="container">
                     <h2 class="work__title">What are we doing</h2>
                     <ul class="work__list list">
@@ -121,13 +124,15 @@
                     <ul class="team__list list">
                         <li class="team__item">
                             <img
-                                width="264"
-                                height="260"
-                                src="./images/our-team-1.jpg"
-                                alt="a photo of a team member"
+                            width="264"
+                            height="260"
+                            src="./images/our-team-1.jpg"
+                            alt="a photo of a team member"
                             />
+                            <div class="team__content-wrapper">
                             <h3 class="team__subtitle">Mark Guerrero</h3>
                             <p class="team__text">Product Designer</p>
+                        </div>
                         </li>
                         <li class="team__item">
                             <img

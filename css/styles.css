@@ -311,8 +311,8 @@ a {
     margin-bottom: 16px;
 }
 
-.footer__text {
-    text-align: center;
+.footer__container{
+    max-width: 264px;
 }
 
 /* ----------------------- portfolio ----------------------------- */
